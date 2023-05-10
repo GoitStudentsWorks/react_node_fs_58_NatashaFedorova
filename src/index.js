@@ -11,7 +11,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="so-yummy">
+    <BrowserRouter basename="react_node_fs_58_NatashaFedorova">
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <App />
